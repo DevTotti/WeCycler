@@ -1,0 +1,5 @@
+#--------------->Requirements
+1. pip install selenium
+2. Download chromedriver.exe
+2. Move the driver to this project folder
+3. Specify the path where the driver is loaded in the code
