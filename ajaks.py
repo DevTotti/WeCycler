@@ -46,8 +46,8 @@ def chrome_drive():
 def login(driver):
 	driver.get("http://wecyclers-admin.cloudapp.net/login/?next=/")
 
-	username = "Wecyclers"
-	pswd = "1nigeria6"
+	username = "put admin login name here"
+	pswd = "put password here"
 
 	driver.find_element_by_id("id_username").send_keys(username)
 	driver.find_element_by_id("id_password").send_keys(pswd)
